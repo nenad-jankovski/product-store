@@ -1,0 +1,19 @@
+Develop a small, focused REST API with Spring Boot that performs the following:
+
+Data Model:
+
+A simple entity (e.g., "Product" with attributes like id, name, description, price)
+
+CRUD Endpoints:
+Create a new product
+Retrieve a list of all products
+Retrieve a product by its ID
+Update an existing product
+Delete a product
+
+Persistence:
+Use an in-memory database (such as H2) for simplicity. Focus is on API and Spring Boot concepts, not production database setup.
+
+Validation
+Basic input validation (e.g., not-empty fields, price greater than zero).
+Simple error handling for invalid requests (e.g., returning appropriate HTTP status codes).
